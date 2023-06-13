@@ -183,8 +183,8 @@ h1,h2,h3,h4,h5,h6
     {
         position: static;
         width: 60%;
-
-        transform: rotate(0);
+        margin-left: 15rem;
+        transform: rotate(40deg);
     }
 
     #title
