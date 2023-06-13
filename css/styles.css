@@ -1,0 +1,194 @@
+body
+{
+    font-family: 'Montserrat-black', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Montserrat-bolder' , sans-serif;
+}
+
+.container-fluid
+{
+    padding: 7% 15%;
+}
+
+/*section*/
+
+.colored
+{
+    background: linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    color: #fff;
+}
+
+.white
+{
+    background-color: #fff;
+}
+
+
+/*navigation bar*/
+
+.header
+{
+    padding: 0 0 5rem;
+}
+
+.brand-name
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.nav-item
+{
+    padding: 0 18px;
+}
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light', sans-serif;
+}
+
+/*title*/
+
+.iphone
+{
+    transform: rotate(25deg);
+    width: 40%;
+    position: absolute;
+    right: 18%;
+  
+}
+#title .container-fluid
+{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+
+/*heading*/
+
+.top-heading
+{
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.section-heading
+{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+
+.btn-dark
+{
+    margin: 5% 3% 5% 0;
+}
+
+
+#features
+{
+    position: relative; 
+
+}
+
+.feature-title
+{
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+.feature-desc
+{
+    color: #8f8f8f;
+}
+
+.f-box
+{
+    padding: 5%;
+    font-size: 1.1rem;
+}
+
+
+
+#testimonials
+{  
+    background-color: #ef8172;
+}
+
+.testimonial-image
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text
+{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+#press
+{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+
+}
+
+.p-logo
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing
+{
+    padding: 100px;
+}
+
+.price-card
+{
+    padding:3% 2%;
+    
+}
+
+.price-tag
+{
+    font-size: 3rem;
+    font-weight: 900; 
+}
+
+.f-icon
+{
+    margin: 20px 10px;
+}
+
+.icon
+{
+    height: 5rem;
+    width: 5rem;
+}
+
+@media (max-width:1028px)
+{
+    .iphone
+    {
+        position: static;
+        width: 60%;
+
+        transform: rotate(0);
+    }
+
+    #title
+    {
+        text-align: center;
+    }
+}
